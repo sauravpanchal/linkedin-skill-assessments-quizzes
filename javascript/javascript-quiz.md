@@ -1241,7 +1241,7 @@ const numbers = [1, 2, 3, 4, 5];
 
 [Reference array destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 
-#### Q95.
+#### Q95. What will this code print?
 
 ```js
 const obj = {
@@ -1852,3 +1852,22 @@ bearSound();
 - [ ] `roar`
 
 [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+
+#### Q132. What is the output of this code?
+
+```js
+var cat = { name: 'Athena' };
+
+function swap(feline) {
+  feline.name = 'Wild';
+  feline = { name: 'Tabby' };
+}
+
+swap(cat);
+console.log(cat.name);
+```
+
+- [ ] undefined
+- [x] Wild
+- [ ] Tabby
+- [ ] Athena
